@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+    background-color:rgba(56, 56, 56, 0.884) ;
+    // position: fixed;
+    border: 0.3px solid rgb(240, 240, 240);
+    h1{
+        font-size: 30px;
+        color: white;
+    }
+    .navbarr{
+        ul{
+          display: flex;
+            gap: 40px;
+            .li{
+                color: white;
+            }
+        }
+    }
+    .reserv{
+        display: flex;
+        gap: 10px;
+        margin-left: 0px;
+        span{
+            color: yellow;
+        }
+        p{
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.services {
+  .services-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-size: 20px;
+    gap: 30px;
+    .service-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+        .servicetitle{
+            display: flex;
+            gap: 30px;
+            font-size: 30px;
+        }
+        .serviceicon{
+            font-size: 50px;
+        }
+    }
+    .eating-times{
+        display: flex;
+        width: 50%;
+        gap: 50px;
+        .eating-time{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            p{
+                text-align: center;
+            }
+            .timeicon{
+                font-size: 50px;
+            }
+        }
+    }
+  }
+}

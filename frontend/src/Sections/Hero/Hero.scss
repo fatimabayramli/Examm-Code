@@ -1,0 +1,24 @@
+.hero{
+    .hero-container{
+        height: 90vh;
+        background-image: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-2.jpg");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .hero-text{
+          h2{
+            color: white;
+            font-size: 100px;
+          } 
+          p{
+            color: white;
+            font-size: 20px;
+        }
+        span{
+            font-size: 70px;
+            color: yellow;
+        }
+            text-align: right;
+        }
+    }
+}
